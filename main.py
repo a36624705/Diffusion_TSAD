@@ -11,7 +11,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Anomaly Detection Framework")
 
     # 模型相关参数
-    parser.add_argument("--model_name", type=str, default="ConditionalDiffusion", help="Model name, e.g., 'AE', 'LSTM'.")
+    parser.add_argument("--model_name", type=str, default="AE", help="Model name, e.g., 'AE', 'LSTM'.")
     parser.add_argument("--hidden_size", type=int, default=128, help="Hidden layer size.")
     parser.add_argument("--num_layers", type=int, default=5, help="Number of layers (for LSTM).")
 
@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument("--num_features", type=int, default=25, help="Number of features per time step.")
 
     # 训练相关参数
-    parser.add_argument("--num_epochs", type=int, default=2, help="Number of training epochs.")
+    parser.add_argument("--num_epochs", type=int, default=10, help="Number of training epochs.")
     parser.add_argument("--learning_rate", type=float, default=1e-4, help="Learning rate.")
     parser.add_argument("--threshold", type=float, default=0.01, help="Anomaly detection threshold.")
 
