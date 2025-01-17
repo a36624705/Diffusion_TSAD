@@ -1,9 +1,9 @@
 # Diffusion_TSAD
 
 实验结果补充如下：（其他模型结果来自Shentu Q, Li B, Zhao K, et al. Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders[J]. arXiv preprint arXiv:2405.15273, 2024.）
-| Dataset | Metric       | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    |
+|         | Metric       | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    |
 |---------|--------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|         |              |    | SMD     |       |    | MSL      |       |   | SMAP      |       |   | SWaT      |       |    | PSM      |       |
+| **Dataset** |              |    | SMD     |       |    | MSL      |       |   | SMAP      |       |   | SWaT      |       |    | PSM      |       |
 | Metric  |              | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    | P     | R     | F1    |
 | OCSVM   |              | 66.98 | 82.03 | 73.75 | 50.26 | 99.86 | 66.87 | 41.05 | 69.37 | 51.58 | 56.80 | 98.72 | 72.11 | 57.51 | 58.11 | 57.81 |
 | PCA     |              | 64.92 | 86.06 | 74.01 | 52.69 | 98.33 | 68.61 | 50.62 | 98.48 | 66.87 | 62.32 | 82.96 | 71.18 | 77.44 | 63.68 | 69.89 |
